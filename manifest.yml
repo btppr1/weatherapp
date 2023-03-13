@@ -1,0 +1,7 @@
+---
+applications:
+- name: weatherapp_uday
+  host: weatherapp1_uday
+  buildpack: nodejs_buildpack
+  memory: 128M
+  command: node server
